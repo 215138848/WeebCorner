@@ -2,16 +2,16 @@
 <div class="container">
       <h1> Memes for Weebs </h1>
 
-      <div class="item">
+      <div class="item" >
             <img src="../../assets/images/2_Memes/FT_1.jpg">
 
             <div class="item-right">
                 <p><strong> Fairy Tail Temperature memes </strong></p>
-                <table class="Table">
+                <table class="Table" >
                     <tr *ngFor="let meme of memes"> {{meme}}  </tr>
                 </table>
 
-                <input type="text" class="replyField" #MemeReply1  maxlength="140" >
+                <input type="text" class="replyField" #MemeReply1  maxlength="75" >
                 <div class="PostButton"><button (click)="postMemeReply1(MemeReply1.value)"> post </button></div>
             </div>
       </div>
@@ -25,7 +25,7 @@
                     <tr *ngFor="let item of memes2"> {{item}}  </tr>
                 </table>
 
-                <input type="text" class="replyField" #MemeReply2  maxlength="140" >
+                <input type="text" class="replyField" #MemeReply2  maxlength="75" >
                 <div class="PostButton"><button (click)="postMemeReply2(MemeReply2.value)"> post </button></div>
             </div>
       </div>

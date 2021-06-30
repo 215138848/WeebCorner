@@ -6,10 +6,10 @@
 .container .item{width: 100%; float: left; border-top: 3px solid black; margin-top: 8px; background-color:rgb(10, 58, 163);}
 .container .item img{max-width: 49%; float: left;}
 
-.container .item .item-right{width: 49%; float: left; padding-left: 10px;}
+.container .item .item-right{width: 49%; float: left; padding-left: 10px;max-height: 600px; min-height: 110px; max-width: 500px;}
 .container .item .item-right p{font-size: 18px;}
 
-.container .item .item-right .Table {min-height: 110px; width: 500px; overflow: auto; border: 2px solid black; background-color: #fff; margin-bottom: 30px; cursor: default;}
+.container .item .item-right .Table {max-height: 600px; min-height: 110px; width: 400px; overflow: auto; border: 2px solid black; background-color: #fff; margin-bottom: 30px; cursor: default;}
 .container .item .item-right input { border: 2px solid; padding: 20px; width: 350px; height: 15px; resize: none; overflow: auto; float: left;}
 .container .item .item-right .PostButton{ padding-left: 10px; float: left;}
 .container .item .item-right button { width: 80px; height: 58px; padding: 5px; font-size: 18px; font-weight: 600;}

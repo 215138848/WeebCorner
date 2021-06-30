@@ -8,9 +8,8 @@ import { ContactComponent } from './contact/contact.component';
 import { ExploreComponent } from './explore/explore.component';
 import { LearnComponent } from './learn/learn.component';
 import { HomeComponent } from './home/home.component';
+import { SliderComponent } from './slider/slider.component';
 
-import { MatButtonModule } from '@angular/material/button';
-import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -20,12 +19,11 @@ import { MatCardModule } from '@angular/material/card';
     ContactComponent,
     ExploreComponent,
     LearnComponent,
-    HomeComponent
+    HomeComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule
-    MatButtonModule,
-    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

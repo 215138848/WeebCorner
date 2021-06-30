@@ -11,16 +11,23 @@
 
 <div class="main-menu">
     <button mat-raised-button (click)="goto('Home')" >
-        <h2> Home </h2>
+        <div class="btn" *ngIf="location=='Home'" style="background-color: rgb(9, 69, 160); width: 160px;"> <h2> Home </h2> </div>
+        <div class="btn" *ngIf="location!='Home'" style="background-color: rgb(76, 77, 78); width: 160px;"> <h2> Home </h2> </div>
     </button>
     <button mat-raised-button (click)="goto('Explore')" >
-        <h2> Explore </h2>
+      <div class="btn" *ngIf="location=='Explore'" style="background-color: rgb(9, 69, 160); width: 160px;"> <h2> Explore </h2> </div>
+      <div class="btn" *ngIf="location!='Explore'" style="background-color: rgb(76, 77, 78); width: 160px;"> <h2> Explore </h2> </div>
+      
     </button>
     <button mat-raised-button (click)="goto('Learn')" >
-        <h2> Learn </h2>
+      <div class="btn" *ngIf="location=='Learn'" style="background-color: rgb(9, 69, 160); width: 160px;"> <h2> Learn </h2> </div>
+      <div class="btn" *ngIf="location!='Learn'" style="background-color: rgb(76, 77, 78); width: 160px;"> <h2> Learn </h2> </div>
+      
     </button>
     <button mat-raised-button (click)="goto('Contact')" >
-        <h2> Contact </h2>
+      <div class="btn" *ngIf="location=='Contact'" style="background-color: rgb(9, 69, 160); width: 160px;"> <h2> Contact </h2> </div>
+      <div class="btn" *ngIf="location!='Contact'" style="background-color: rgb(76, 77, 78); width: 160px;"> <h2> Contact </h2> </div>
+      
     </button>
 </div>
 

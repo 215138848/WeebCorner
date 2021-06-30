@@ -3,9 +3,10 @@
     background-color: rgb(172, 172, 172);
 }
 .main-menu{width: 15%; float: left; display: block; position: static;}
-.main-menu button{width: 90%; align-content: center; display: flex; justify-content: space-between; }
+.main-menu button{width: 90%; align-content: center; display: flex; justify-content: space-between; text-align: center;}
+.btn{font-size: 24px; text-align: center; color: black; padding: 10px, 10px; }
 .main-menu button h2{font-size: 24px; text-align: center; color: black;}
-.main-menu button h2:hover {color: rgb(6, 77, 184);}
+.main-menu button h2:hover {color: rgb(255, 255, 255);}
 
 .main-body{width: 84.9%; float: left; padding: 0; background-color: rgb(10, 58, 163);}
 

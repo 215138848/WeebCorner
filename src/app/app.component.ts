@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'WeebCorner';
-  location: string = "Home"
 
+  location: string = "Home"
   public goto(loc: string): void {
     this.location = loc;
   }

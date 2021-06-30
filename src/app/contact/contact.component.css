@@ -1,0 +1,19 @@
+
+.container {width: 100%; float: left; height: 450px;}
+.container h1{padding-left: 20px; color: black; border-bottom: 2px solid black;}
+.container form{float: left; padding-left: 20px; width: 600px; height: 250px; display: block;}
+
+.container form .username{width: 100%; display: block;float: left;}
+.container form .username p{float: left; width: 115px;font-size: 20px; font-weight: 500;}
+.container form .username input{float: left; width: 300px; height: 20px; margin-top: 1.4em; margin-bottom: 0em;}
+.container form .email{ width: 100%; display: block;float: left;}
+.container form .email p{float: left; width: 115px;font-size: 20px; font-weight: 500;}
+.container form .email input{float: left; width: 300px; height: 20px; margin-top: 1.4em; margin-bottom: 0em;}
+.container form .message{ width: 100%; display: block;float: left;}
+.container form .message p{float: left; width: 115px;font-size: 20px; font-weight: 500;}
+.container form .message input{float: left; width: 300px; height: 180px;}
+
+.container form .btn{padding-left: 430px; margin-top: 2.4em; margin-bottom: 0em;}
+.container form .btn button{width: 115px;height: 50px;font-size: 20px; font-weight: 600;}
+
+

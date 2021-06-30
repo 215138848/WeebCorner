@@ -1,53 +1,26 @@
-<p> contact us </p>
 
-<form action="mailto:admin@site.com">
-    <div style="width: 400px; background-color: green;">
-    <p>
-    <mat-form-field appearance="fill" id="managerName">
-        <mat-label> Manager Name </mat-label>
-        <input matInput placeholder="Your Name" type="text">
-    </mat-form-field>
-    </p>
-    <p>
-    <mat-form-field appearance="fill" id="managerEmail">
-        <mat-label> Manager Email </mat-label>
-        <input matInput placeholder="email@domain.com" type="email">
-    </mat-form-field>
-    </p>
-    <p>
-    <mat-form-field appearance="fill" id="position">
-        <mat-label> Position in 2021 League </mat-label>
-        <input matInput placeholder="#" type="number">
-    </mat-form-field>
-    </p>
-    <p>
-    <mat-form-field appearance="fill" id="shirtColor">
-        <mat-label> Shirt colour? </mat-label>
-        <input matInput placeholder="" type="color">
-    </mat-form-field>
-    </p>
-    <p>
-    <mat-form-field appearance="fill" id="founded">
-        <mat-label> Founded in </mat-label>
-        <input matInput [matDatepicker]="picker">
-        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-        <mat-datepicker #picker></mat-datepicker>
-    </mat-form-field>
-    </p>
-    <p>
-    <mat-form-field appearance="fill" id="goalKeepers">
-        <mat-label> Goal Keepers </mat-label>
-        <mat-select>
-            <mat-option [value]="Zack Steffen"> Zack Steffen </mat-option>
-            <mat-option [value]="Hugo Lloris"> Hugo Lloris </mat-option>
-            <mat-option [value]="Alisson Becker"> Alisson Becker </mat-option>
-          </mat-select>
-    </mat-form-field>
-    </p>
-    <div style="display: flex; justify-content: space-between;">
-        <button mat-raised-button type="submit"> Submit </button>
-        <button mat-raised-button type="reset"></button>
-        <button mat-raised-button type="button" (click)="prefill()" ></button>
-    </div>
-</div>
+
+<div class="container">
+<h1> Contact Us </h1>
+
+    <form action="mailto:215138848@mycput.ac.za">
+        <div class="username">
+            <p> Username  </p>
+            <input type="text"placeholder="    Username">
+        </div>
+        <div class="email">
+            <p> Email  </p>
+            <input type="email"placeholder="    Email">
+        </div>
+        <div class="message">
+            <p> Message </p>
+            <input type="text" maxlength="280" placeholder="    Message">
+        </div>
+        <div class="btn">
+            <button type="submit"> Submit </button>
+        </div>
+
     </form>
+</div>
+
+

@@ -12,4 +12,9 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  displaySlider = true;
+  public bMethod(){
+    this.displaySlider = !this.displaySlider;
+  }
+  
 }

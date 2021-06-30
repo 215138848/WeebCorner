@@ -1,0 +1,19 @@
+
+/* Slideshow - starts */
+ .carousel {width: 100%; margin: 0; overflow: hidden; height: 206px; margin-top: 0.5em;}
+
+ .carousel .wrapper{width: 7400px; left: 0px; display: inline-block; animation: leftGo 115s linear forwards infinite 1s;}
+ .carousel .wrapper .slider-item{display: inline-block; height: 205px; position:relative; margin-right: 3px;}
+ .carousel .wrapper .slider-item img{height: 195px;}
+
+ .carousel:hover .wrapper{animation-play-state: paused;}
+
+@keyframes leftGo {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-77.8%);
+    }
+}
+/* Slideshow - ends */

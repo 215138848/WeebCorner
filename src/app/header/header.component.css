@@ -5,10 +5,12 @@
 .menu-top h1{display: block; font-size: 90px; color: rgb(5, 60, 133); margin-top: 0.1em; text-align: center; margin-bottom: 0.3em;}
 .menu-top h3{display: inline-block; font-size: 38px; color: rgb(36, 127, 202); margin-top: -2.8em; padding-left: 15%;}
 
+
 /* Slideshow - starts */
 .slider {width:100%;border-top:3px solid #01579B; position:relative; background-color: rgb(24, 24, 26);  margin-top: 6.8em;}
 .slider .slider-title{border-top: 0.4px solid rgb(22, 22, 22) ; padding:1px 20px 2px 20px; background-color: #01579B; width: 260px; text-align: center; margin-top: -0.1px; margin-bottom: 1em; }
-.slider .slider-title h2{font-size:24px;color:#fff; margin-top: -5.8em; margin: 0; }
+.slider .slider-title button{padding:5px 20px 4px 20px; background-color: #01579B;}
+.slider .slider-title button h2{font-size:24px;color:#fff; margin-top: -5.8em; margin: 0; background-color: #01579B;}
 .slider .carousel {width: 100%; margin: 0; overflow: hidden; height: 206px; margin-top: 0.5em;}
 
 .slider .carousel .wrapper{width: 7400px; left: 0px; display: inline-block; animation: leftGo 115s linear forwards infinite 1s;}
