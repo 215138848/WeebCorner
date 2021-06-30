@@ -7,6 +7,10 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { ExploreComponent } from './explore/explore.component';
 import { LearnComponent } from './learn/learn.component';
+import { HomeComponent } from './home/home.component';
+
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -15,10 +19,13 @@ import { LearnComponent } from './learn/learn.component';
     FooterComponent,
     ContactComponent,
     ExploreComponent,
-    LearnComponent
+    LearnComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
